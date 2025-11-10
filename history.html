@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokémon Bank - Historial</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Historial de Transacciones</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped text-center" id="tablaHistorial">
+        <thead class="bg-primary text-white">
+          <tr>
+            <th>Fecha</th>
+            <th>Tipo</th>
+            <th>Monto ($)</th>
+          </tr>
+        </thead>
+        <tbody id="bodyHistorial"></tbody>
+      </table>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="dashboard.html" class="btn btn-outline-primary">Volver al Panel</a>
+      <button id="btnLimpiar" class="btn btn-outline-danger">Limpiar historial</button>
+    </div>
+  </div>
+
+  <!-- Librerías -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/history.js"></script>
+</body>
+</html>

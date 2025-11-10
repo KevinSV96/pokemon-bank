@@ -1,0 +1,18 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.panel {
+  border-radius: 8px;
+}
+
+.panel-heading {
+  background-color: #337ab7 !important;
+  color: white !important;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#btnLogin {
+  margin-top: 15px;
+}

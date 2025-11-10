@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pokémon Bank - Panel</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <div class="text-center mb-4">
+      <h2>Bienvenido a Pokémon Bank</h2>
+      <p id="usuarioDatos" class="lead"></p>
+      <h3>Saldo actual: <strong>$<span id="saldo">0.00</span></strong></h3>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-3 mb-3">
+        <button class="btn btn-success btn-block" id="btnDeposito">Depositar</button>
+      </div>
+      <div class="col-md-3 mb-3">
+        <button class="btn btn-danger btn-block" id="btnRetiro">Retirar</button>
+      </div>
+      <div class="col-md-3 mb-3">
+        <button class="btn btn-warning btn-block" id="btnPago">Pagar Servicio</button>
+      </div>
+      <div class="col-md-3 mb-3">
+        <button class="btn btn-info btn-block" id="btnConsulta">Consultar Saldo</button>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="history.html" class="btn btn-outline-primary">Ver historial</a>
+      <a href="chart.html" class="btn btn-outline-success">Ver gráfico</a>
+    <button id="btnPDF" class="btn btn-outline-secondary">Generar PDF</button>
+      <button id="btnSalir" class="btn btn-outline-danger">Salir</button>
+    </div>
+  </div>
+
+  <!-- Librerías -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/3.0.3/jspdf.umd.min.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
