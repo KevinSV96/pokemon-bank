@@ -53,7 +53,7 @@ El proyecto fue desarrollado con **HTML5, CSS3, Bootstrap 3.4.1 y JavaScript**, 
 
 * **Chart.js** – gráficos estadísticos de transacciones.
 
-jsPDF – generación de comprobantes en PDF.
+* **jsPDF** – generación de comprobantes en PDF.
 
 ---
 ## Estructura del proyecto ##
