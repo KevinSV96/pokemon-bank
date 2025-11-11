@@ -16,3 +16,9 @@ body {
 #btnLogin {
   margin-top: 15px;
 }
+
+#graficoTransacciones {
+  max-width: 350px;   /* ancho máximo del gráfico */
+  max-height: 350px;  /* alto máximo del gráfico */
+  margin: 0 auto;     /* centrado */
+}
