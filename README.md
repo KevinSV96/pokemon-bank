@@ -1,11 +1,11 @@
-#Pokémon Bank#
+# Pokémon Bank #
 
 **Proyecto de Cátedra – Fase II**
 **Asignatura:** Desarrollo de Aplicaciones Web con Software Interpretado en el Cliente (DAW901)
 
 ---
 
-##Descripción##
+## Descripción ##
 
 **Pokémon Bank** es una aplicación web que simula el funcionamiento de un cajero automático (ATM).
 Permite a los usuarios iniciar sesión mediante un PIN y realizar operaciones bancarias básicas como depósitos, retiros, pagos de servicios y consultas de saldo.
@@ -15,7 +15,7 @@ El proyecto fue desarrollado con **HTML5, CSS3, Bootstrap 3.4.1 y JavaScript**, 
 
 ---
 
-##Características principales##
+## Características principales ##
 
 * Inicio de sesión mediante PIN de 4 dígitos.
 
@@ -41,7 +41,7 @@ El proyecto fue desarrollado con **HTML5, CSS3, Bootstrap 3.4.1 y JavaScript**, 
 
 ---
 
-##Tecnologías utilizadas##
+## Tecnologías utilizadas ##
 
 * **HTML5** – estructura principal del sitio.
 
@@ -55,7 +55,8 @@ El proyecto fue desarrollado con **HTML5, CSS3, Bootstrap 3.4.1 y JavaScript**, 
 
 jsPDF – generación de comprobantes en PDF.
 
-Estructura del proyecto
+---
+## Estructura del proyecto ##
 
 ```
 /pokemon-bank
@@ -109,7 +110,7 @@ http://127.0.0.1:5500/pokemon-bank/index.html
 ```
 ---
 
-##Instrucciones de uso##
+## Instrucciones de uso ##
 
 1. En la pantalla de inicio de sesión, ingresar el PIN *1234*.
 
@@ -131,7 +132,7 @@ http://127.0.0.1:5500/pokemon-bank/index.html
 
 ---
 
-**Recomendaciones**
+## Recomendaciones ##
 
 No modificar el PIN inicial a menos que se actualice también en ```login.js```.
 
@@ -141,7 +142,7 @@ Antes de entregar o desplegar, limpiar el historial con el botón “Limpiar his
 
 ---
 
-##Créditos y licencia##
+## Créditos y licencia ##
 
 Desarrollado como parte del proyecto de cátedra de la asignatura **Desarrollo de Aplicaciones Web con Software Interpretado en el Cliente (DAW901)** – Universidad Don Bosco.
 
